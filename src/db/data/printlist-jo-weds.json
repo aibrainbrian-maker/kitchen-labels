@@ -1,0 +1,699 @@
+[
+ {
+  "name": "All Day Breakfast on White Bread",
+  "desc": "Cumberland Sausage, Streaky Bacon and Free Range Sliced Egg with tomato ketchup",
+  "price": "\u00a33.80",
+  "packG": 213,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 12.0,
+   "sat": 3.8,
+   "carb": 20.0,
+   "sug": 2.0,
+   "fib": 1.3,
+   "prot": 14.0,
+   "salt": 1.4
+  },
+  "qty": 2
+ },
+ {
+  "name": "Bacon Toastie",
+  "desc": "Smoked streaky bacon to be toasted on white bloomer ENJOY ME TOASTED!",
+  "price": "\u00a33.70",
+  "packG": 150,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 5.1,
+   "carb": 30.0,
+   "sug": 0.8,
+   "fib": 1.9,
+   "prot": 14.0,
+   "salt": 1.4
+  },
+  "qty": 2
+ },
+ {
+  "name": "BBQ Chicken & Cheese Panini",
+  "desc": "Chicken Breast with BBQ Sauce and Mature Cheddar - Ready for Toasting",
+  "price": "\u00a34.50",
+  "packG": 215,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 7.5,
+   "sat": 4.2,
+   "carb": 31.0,
+   "sug": 2.3,
+   "fib": 1.7,
+   "prot": 16.0,
+   "salt": 1.1
+  },
+  "qty": 2
+ },
+ {
+  "name": "BLT Sandwich",
+  "desc": "Bacon, Lettuce & Tomato on White Bread",
+  "price": "\u00a33.70",
+  "packG": 160,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 9.2,
+   "sat": 3.0,
+   "carb": 25.0,
+   "sug": 1.8,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.8
+  },
+  "qty": 2
+ },
+ {
+  "name": "Brie, Bacon and Cranberry Panini",
+  "desc": "Creamy Brie, with Bacon and Cranberry sauce - Enjoy me Toasted!",
+  "price": "\u00a34.50",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 10.0,
+   "sat": 1.1,
+   "carb": 34.0,
+   "sug": 3.6,
+   "fib": 1.8,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Cheese & Onion Toastie",
+  "desc": "Cheddar cheese with Red & Spring Onions on White Bloomer ENJOY ME TOASTED!",
+  "price": "\u00a33.70",
+  "packG": 170,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 6.2,
+   "carb": 26.0,
+   "sug": 1.3,
+   "fib": 1.8,
+   "prot": 13.0,
+   "salt": 1.2
+  },
+  "qty": 2
+ },
+ {
+  "name": "Cheese & Pickle Roll",
+  "desc": "Mature Cheddar with Branston Pickle in a Soft White Roll",
+  "price": "\u00a32.75",
+  "packG": 138,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 6.9,
+   "carb": 32.0,
+   "sug": 5.0,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.5
+  },
+  "qty": 5
+ },
+ {
+  "name": "Cheese & Tomato Panini",
+  "desc": "Mature Cheddar Cheese with Sliced Tomatoes",
+  "price": "\u00a34.10",
+  "packG": 185,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 10.0,
+   "sat": 5.9,
+   "carb": 36.0,
+   "sug": 2.1,
+   "fib": 2.0,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Cheese & Tomato, White Roll",
+  "desc": "Sliced Cheddar with Tomato in a Soft White Roll",
+  "price": "\u00a32.75",
+  "packG": 133,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 7.1,
+   "carb": 29.0,
+   "sug": 1.8,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.1
+  },
+  "qty": 5
+ },
+ {
+  "name": "Cheese Ploughman's White Bloomer",
+  "desc": "Cheddar Cheese with Sweet Pickle, Mayo and salad in Soft White Bloomer",
+  "price": "\u00a34.30",
+  "packG": 210,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 5.6,
+   "carb": 30.0,
+   "sug": 2.1,
+   "fib": 1.4,
+   "prot": 12.0,
+   "salt": 1.4
+  },
+  "qty": 2
+ },
+ {
+  "name": "Cheese Roll",
+  "desc": "Mature Cheddar in a Soft White Roll",
+  "price": "\u00a32.75",
+  "packG": 118,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 15.0,
+   "sat": 8.0,
+   "carb": 33.0,
+   "sug": 1.7,
+   "fib": 1.7,
+   "prot": 15.0,
+   "salt": 1.3
+  },
+  "qty": 5
+ },
+ {
+  "name": "Cheese Savoury on Malted Bread",
+  "desc": "Cheese, mayo and red onion mix",
+  "price": "\u00a33.70",
+  "packG": 154,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 18.0,
+   "sat": 7.8,
+   "carb": 22.0,
+   "sug": 1.9,
+   "fib": 3.7,
+   "prot": 13.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken & Bacon on Malted Bread",
+  "desc": "Chicken breast and bacon with mayo",
+  "price": "\u00a33.80",
+  "packG": 180,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 2.4,
+   "carb": 19.0,
+   "sug": 1.4,
+   "fib": 3.2,
+   "prot": 18.0,
+   "salt": 2.1
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken & Sweetcorn",
+  "desc": "100% Chicken Breast with mayonnaise and sweetcorn",
+  "price": "\u00a33.70",
+  "packG": 175,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 7.7,
+   "sat": 0.6,
+   "carb": 24.0,
+   "sug": 2.1,
+   "fib": 1.7,
+   "prot": 14.0,
+   "salt": 1.2
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken and Bacon Mayo on Malted Bloomer",
+  "desc": "Chicken breast and bacon with mayo",
+  "price": "\u00a34.40",
+  "packG": 200,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 9.4,
+   "sat": 2.1,
+   "carb": 24.0,
+   "sug": 0.9,
+   "fib": 2.2,
+   "prot": 17.0,
+   "salt": 1.9
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken Caesar Salad Bowl",
+  "desc": "Sliced Chicken on a bed of Cos Lettuce served with Italian Hard Cheese, Croutons, Cucumber and a Creamy Caesar dressing",
+  "price": "\u00a34.80",
+  "packG": 255,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 5.1,
+   "sat": 2.7,
+   "carb": 5.3,
+   "sug": 0.8,
+   "fib": 0.7,
+   "prot": 15.0,
+   "salt": 0.35
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken Mayo Roll",
+  "desc": "Chicken Breast with Mayo in a soft white roll",
+  "price": "\u00a32.95",
+  "packG": 133,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 8.3,
+   "sat": 1.1,
+   "carb": 30.0,
+   "sug": 1.7,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.2
+  },
+  "qty": 5
+ },
+ {
+  "name": "Chicken Satay Wrap",
+  "desc": "Sliced Chicken in a Satay Sauce with Crunchy Spinach * *CONTAINS PEANUTS* *",
+  "price": "\u00a34.40",
+  "packG": 195,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 5.2,
+   "sat": 1.8,
+   "carb": 28.0,
+   "sug": 2.9,
+   "fib": 1.8,
+   "prot": 13.0,
+   "salt": 0.92
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken, Chorizo & Cheese Panini",
+  "desc": "100% Chicken breast, with slices of Chorizo and Mature Cheddar Cheese",
+  "price": "\u00a34.50",
+  "packG": 211,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 7.8,
+   "sat": 4.4,
+   "carb": 31.0,
+   "sug": 1.7,
+   "fib": 1.7,
+   "prot": 17.0,
+   "salt": 1.1
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chunky Egg mayo with Cress on Malted Bread",
+  "desc": "Chunky Egg Mayo with Cress on Malted Bread",
+  "price": "\u00a33.70",
+  "packG": 122,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 14.0,
+   "sat": 2.3,
+   "carb": 16.0,
+   "sug": 1.3,
+   "fib": 2.7,
+   "prot": 11.0,
+   "salt": 0.8
+  },
+  "qty": 2
+ },
+ {
+  "name": "Egg Mayo & Cress in a soft Granary Roll",
+  "desc": "Made with Free Range Eggs",
+  "price": "\u00a32.85",
+  "packG": 124,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 2.1,
+   "carb": 25.0,
+   "sug": 1.7,
+   "fib": 2.5,
+   "prot": 11.0,
+   "salt": 0.91
+  },
+  "qty": 5
+ },
+ {
+  "name": "GLUTEN FREE - Chicken Salad",
+  "desc": "Chicken Salad with Mayo Sandwich on Gluten Free",
+  "price": "\u00a34.40",
+  "packG": 190,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 7.6,
+   "sat": 0.9,
+   "carb": 18.0,
+   "sug": 1.1,
+   "fib": 3.8,
+   "prot": 9.2,
+   "salt": 0.73
+  },
+  "qty": 1
+ },
+ {
+  "name": "GLUTEN FREE - Tuna & Cucumber Sandwich",
+  "desc": "Tuna Mayo with cucumber on Gluten Free Bread",
+  "price": "\u00a34.40",
+  "packG": 164,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 1.4,
+   "carb": 20.0,
+   "sug": 1.0,
+   "fib": 4.3,
+   "prot": 8.9,
+   "salt": 0.91
+  },
+  "qty": 1
+ },
+ {
+  "name": "Ham & Cheese Panini",
+  "desc": "Wiltshire Ham & Mature Cheddar - perfect toasted",
+  "price": "\u00a34.50",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 8.1,
+   "sat": 4.5,
+   "carb": 32.0,
+   "sug": 1.9,
+   "fib": 1.8,
+   "prot": 14.0,
+   "salt": 1.5
+  },
+  "qty": 2
+ },
+ {
+  "name": "Ham & Cheese Roll",
+  "desc": "Ham and Mature Cheddar in a Soft Granary Roll",
+  "price": "\u00a32.90",
+  "packG": 118,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 9.9,
+   "sat": 4.8,
+   "carb": 29.0,
+   "sug": 2.0,
+   "fib": 2.7,
+   "prot": 14.0,
+   "salt": 1.3
+  },
+  "qty": 5
+ },
+ {
+  "name": "Ham & Cheese Toastie",
+  "desc": "Wiltshire Ham & Mature Cheddar - perfect toasted",
+  "price": "\u00a33.80",
+  "packG": 193,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 7.2,
+   "carb": 20.0,
+   "sug": 1.5,
+   "fib": 1.2,
+   "prot": 16.0,
+   "salt": 1.5
+  },
+  "qty": 2
+ },
+ {
+  "name": "Ham Roll",
+  "desc": "Slices of Ham in a Soft White Roll",
+  "price": "\u00a32.75",
+  "packG": 108,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 4.3,
+   "sat": 1.0,
+   "carb": 36.0,
+   "sug": 2.1,
+   "fib": 1.8,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 5
+ },
+ {
+  "name": "Ham, Cheese & Coleslaw on White",
+  "desc": "",
+  "price": "\u00a33.80",
+  "packG": 174,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 4.6,
+   "carb": 21.0,
+   "sug": 2.5,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Hunters Chicken Ciabatta",
+  "desc": "Sliced Chicken and Bacon covered in Cheddar with a BBQ sauce",
+  "price": "\u00a34.50",
+  "packG": 260,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 4.8,
+   "carb": 23.0,
+   "sug": 4.1,
+   "fib": 1.6,
+   "prot": 17.0,
+   "salt": 1.0
+  },
+  "qty": 2
+ },
+ {
+  "name": "Luxury Smoked Salmon and Cream Cheese Bagel",
+  "desc": "Smoked Atlantic Salmon with a thick layer of Cream Cheese",
+  "price": "\u00a34.40",
+  "packG": 180,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 5.6,
+   "sat": 1.4,
+   "carb": 42.0,
+   "sug": 3.7,
+   "fib": 2.2,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Margherita Panini",
+  "desc": "Panini with Tomato & Basil Sauce and Cheddar Cheese",
+  "price": "\u00a34.10",
+  "packG": 180,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 10.0,
+   "sat": 6.1,
+   "carb": 37.0,
+   "sug": 2.1,
+   "fib": 2.0,
+   "prot": 13.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "New York Deli Bagel",
+  "desc": "Sliced Pastrami, Emmental cheese and crunchy gherkins covered with Mustard Mayo in a soft bagel TRY ME TOASTED",
+  "price": "\u00a34.30",
+  "packG": 180,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 7.0,
+   "sat": 2.8,
+   "carb": 38.0,
+   "sug": 3.4,
+   "fib": 2.0,
+   "prot": 13.0,
+   "salt": 1.4
+  },
+  "qty": 2
+ },
+ {
+  "name": "Piri Piri Chicken with Mayo, Sweet Chilli, Tomato and Cucumber",
+  "desc": "",
+  "price": "\u00a33.70",
+  "packG": 175,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 8.7,
+   "sat": 1.1,
+   "carb": 25.0,
+   "sug": 3.1,
+   "fib": 2.3,
+   "prot": 12.0,
+   "salt": 1.1
+  },
+  "qty": 1
+ },
+ {
+  "name": "Piri Piri Chicken with Sweet Chilli sauce and Cheese Panini",
+  "desc": "",
+  "price": "\u00a34.50",
+  "packG": 219,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 9.2,
+   "sat": 4.3,
+   "carb": 32.0,
+   "sug": 3.1,
+   "fib": 2.1,
+   "prot": 15.0,
+   "salt": 1.4
+  },
+  "qty": 2
+ },
+ {
+  "name": "Sliced Egg Salad Bowl",
+  "desc": "Served with mixed Salad, Cucumber, Carrot, Cherry Tomatoes and Sweetcorn and Coleslaw",
+  "price": "\u00a34.70",
+  "packG": 275,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 4.6,
+   "sat": 1.0,
+   "carb": 4.1,
+   "sug": 2.5,
+   "fib": 1.3,
+   "prot": 6.3,
+   "salt": 0.18
+  },
+  "qty": 1
+ },
+ {
+  "name": "Southern Fried Chicken and Bacon Hot Wrap",
+  "desc": "Southern Fried Chicken Fillet, Bacon, Cheese & BBQ Sauce",
+  "price": "\u00a34.50",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 14.0,
+   "sat": 7.2,
+   "carb": 29.0,
+   "sug": 2.5,
+   "fib": 1.6,
+   "prot": 14.0,
+   "salt": 1.8
+  },
+  "qty": 3
+ },
+ {
+  "name": "Tuna Cheddar Toastie",
+  "desc": "Tuna Mayo with spring onions and red peppers, covered in Sliced Cheddar on Malted Bloomer - Perfect Toasted",
+  "price": "\u00a34.40",
+  "packG": 255,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 5.1,
+   "carb": 23.0,
+   "sug": 1.1,
+   "fib": 2.2,
+   "prot": 14.0,
+   "salt": 1.3
+  },
+  "qty": 3
+ },
+ {
+  "name": "Tuna Mayo and Cucumber Roll",
+  "desc": "Tuna Mayo with Cucumber in a Soft Granary Roll",
+  "price": "\u00a32.85",
+  "packG": 143,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 8.4,
+   "sat": 1.3,
+   "carb": 24.0,
+   "sug": 1.8,
+   "fib": 2.4,
+   "prot": 12.0,
+   "salt": 0.96
+  },
+  "qty": 5
+ },
+ {
+  "name": "Tuna Melt Ciabatta",
+  "desc": "Tuna Mayonnaise & Mature Cheddar - ready for toasting",
+  "price": "\u00a34.50",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 12.0,
+   "sat": 4.9,
+   "carb": 27.0,
+   "sug": 3.3,
+   "fib": 2.0,
+   "prot": 14.0,
+   "salt": 0.88
+  },
+  "qty": 2
+ },
+ {
+  "name": "Tuna Melt Panini",
+  "desc": "Tuna Mayonnaise & Mature Cheddar - ready for toasting",
+  "price": "\u00a34.50",
+  "packG": 210,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 4.5,
+   "carb": 31.0,
+   "sug": 1.8,
+   "fib": 1.7,
+   "prot": 14.0,
+   "salt": 1.3
+  },
+  "qty": 2
+ },
+ {
+  "name": "Tuna Sweetcorn on Malted Bread",
+  "desc": "",
+  "price": "\u00a33.70",
+  "packG": 142,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 8.1,
+   "sat": 1.0,
+   "carb": 25.0,
+   "sug": 2.2,
+   "fib": 4.2,
+   "prot": 12.0,
+   "salt": 0.98
+  },
+  "qty": 2
+ }
+]

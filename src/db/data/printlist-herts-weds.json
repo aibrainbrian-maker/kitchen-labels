@@ -1,0 +1,287 @@
+[
+ {
+  "name": "All Day Breakfast on White Bread",
+  "desc": "Cumberland Sausage, Streaky Bacon and Free Range Sliced Egg with tomato ketchup",
+  "price": null,
+  "packG": 213,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 989.0,
+   "kcal": 236.0,
+   "fat": 12.0,
+   "sat": 3.8,
+   "carb": 20.0,
+   "sug": 2.0,
+   "fib": 1.3,
+   "prot": 14.0,
+   "salt": 1.4
+  },
+  "qty": 1
+ },
+ {
+  "name": "Cheese & Pickle, White Roll",
+  "desc": "Sliced Cheddar in a Soft White Roll with Branston's Pickle",
+  "price": null,
+  "packG": 123,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1287.0,
+   "kcal": 307.0,
+   "fat": 14.0,
+   "sat": 7.7,
+   "carb": 33.0,
+   "sug": 2.6,
+   "fib": 1.6,
+   "prot": 14.0,
+   "salt": 1.3
+  },
+  "qty": 3
+ },
+ {
+  "name": "Cheese & Tomato, White Roll",
+  "desc": "Sliced Cheddar with Tomato in a Soft White Roll",
+  "price": null,
+  "packG": 133,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1179.0,
+   "kcal": 281.0,
+   "fat": 13.0,
+   "sat": 7.1,
+   "carb": 29.0,
+   "sug": 1.8,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.1
+  },
+  "qty": 3
+ },
+ {
+  "name": "Cheese Roll, Soft White",
+  "desc": "Sliced Cheddar in a Soft White Roll",
+  "price": null,
+  "packG": 118,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1322.0,
+   "kcal": 315.0,
+   "fat": 15.0,
+   "sat": 8.0,
+   "carb": 33.0,
+   "sug": 1.7,
+   "fib": 1.7,
+   "prot": 15.0,
+   "salt": 1.3
+  },
+  "qty": 3
+ },
+ {
+  "name": "Chicken & Bacon on Malted Bread",
+  "desc": "Chicken breast and bacon with mayo",
+  "price": null,
+  "packG": 180,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1006.0,
+   "kcal": 239.0,
+   "fat": 11.0,
+   "sat": 2.4,
+   "carb": 19.0,
+   "sug": 1.4,
+   "fib": 3.2,
+   "prot": 18.0,
+   "salt": 2.1
+  },
+  "qty": 1
+ },
+ {
+  "name": "Chicken & Chorizo with Leaf on Malted Bloomer",
+  "desc": "100% Chicken Breast, Chorizo, Leaf and Mayonnaise in a Malted Bloomer",
+  "price": null,
+  "packG": 201,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1146.0,
+   "kcal": 273.0,
+   "fat": 13.0,
+   "sat": 2.3,
+   "carb": 22.0,
+   "sug": 1.4,
+   "fib": 1.8,
+   "prot": 16.0,
+   "salt": 0.84
+  },
+  "qty": 1
+ },
+ {
+  "name": "Chicken Mayo Roll",
+  "desc": "Chicken Breast with Mayo in a soft white roll",
+  "price": null,
+  "packG": 133,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1012.0,
+   "kcal": 240.0,
+   "fat": 8.3,
+   "sat": 1.1,
+   "carb": 30.0,
+   "sug": 1.7,
+   "fib": 1.6,
+   "prot": 13.0,
+   "salt": 1.2
+  },
+  "qty": 3
+ },
+ {
+  "name": "Egg Mayo & Cress in a soft Granary Roll",
+  "desc": "Made with Free Range Eggs",
+  "price": null,
+  "packG": 124,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 981.0,
+   "kcal": 233.0,
+   "fat": 11.0,
+   "sat": 2.1,
+   "carb": 25.0,
+   "sug": 1.7,
+   "fib": 2.5,
+   "prot": 11.0,
+   "salt": 0.91
+  },
+  "qty": 3
+ },
+ {
+  "name": "Egg Mayo, Cress & Tomato Bloomer",
+  "desc": "Egg Mayonnaise, Cress & Tomato on a Malted Bloomer",
+  "price": null,
+  "packG": 190,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 919.0,
+   "kcal": 219.0,
+   "fat": 8.0,
+   "sat": 1.3,
+   "carb": 26.0,
+   "sug": 1.3,
+   "fib": 2.3,
+   "prot": 9.6,
+   "salt": 0.68
+  },
+  "qty": 1
+ },
+ {
+  "name": "Ham & Cheese, Granary Roll",
+  "desc": "Wafer thin ham and sliced cheese in a granary roll",
+  "price": null,
+  "packG": 153,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1068.0,
+   "kcal": 254.0,
+   "fat": 13.0,
+   "sat": 6.7,
+   "carb": 21.0,
+   "sug": 1.6,
+   "fib": 2.0,
+   "prot": 16.0,
+   "salt": 1.5
+  },
+  "qty": 2
+ },
+ {
+  "name": "Ham Roll, Soft White",
+  "desc": "Wafer thin ham in a soft white roll",
+  "price": null,
+  "packG": 118,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 890.0,
+   "kcal": 210.0,
+   "fat": 4.2,
+   "sat": 1.0,
+   "carb": 33.0,
+   "sug": 2.0,
+   "fib": 1.7,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 3
+ },
+ {
+  "name": "Prawn Mayo with leaf on Malted Bread",
+  "desc": "Creamy Prawn Mayonnaise with mixed leaf",
+  "price": null,
+  "packG": 154,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 819.0,
+   "kcal": 195.0,
+   "fat": 7.9,
+   "sat": 1.0,
+   "carb": 23.0,
+   "sug": 2.0,
+   "fib": 4.9,
+   "prot": 9.8,
+   "salt": 1.1
+  },
+  "qty": 1
+ },
+ {
+  "name": "Tuna Crunch Wrap",
+  "desc": "Tuna Mayo and Peppers with lettuce & Cucumber in a Wrap.",
+  "price": null,
+  "packG": 162,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 1019.0,
+   "kcal": 242.0,
+   "fat": 9.0,
+   "sat": 1.9,
+   "carb": 30.0,
+   "sug": 1.6,
+   "fib": 2.1,
+   "prot": 12.0,
+   "salt": 1.2
+  },
+  "qty": 1
+ },
+ {
+  "name": "Tuna Mayo & Cucumber",
+  "desc": "Tuna Mayo and Cucumber on a soft Granary roll.",
+  "price": null,
+  "packG": 143,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 899.0,
+   "kcal": 213.0,
+   "fat": 8.4,
+   "sat": 1.3,
+   "carb": 24.0,
+   "sug": 1.8,
+   "fib": 2.4,
+   "prot": 12.0,
+   "salt": 0.89
+  },
+  "qty": 3
+ },
+ {
+  "name": "Tuna Sweetcorn on Malted Bread",
+  "desc": "",
+  "price": null,
+  "packG": 142,
+  "date": "10/07/2026",
+  "nutrition": {
+   "kj": 905.0,
+   "kcal": 215.0,
+   "fat": 8.1,
+   "sat": 1.0,
+   "carb": 25.0,
+   "sug": 2.2,
+   "fib": 4.2,
+   "prot": 12.0,
+   "salt": 0.98
+  },
+  "qty": 1
+ }
+]

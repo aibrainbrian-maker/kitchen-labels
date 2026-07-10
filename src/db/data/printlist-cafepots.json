@@ -1,0 +1,825 @@
+[
+ {
+  "name": "Chicken Chunks",
+  "nameSize": 13.8,
+  "desc": "Homemade Chicken Chunks in Breadcrumbs",
+  "descSize": 5.8,
+  "price": "\u00a32.80",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "Extracts, Sugar."
+   ],
+   [
+    false,
+    "Syrup, Salt, Yeast"
+   ],
+   [
+    false,
+    "Flavouring, Glucose"
+   ],
+   [
+    false,
+    "(Water, Chicken Stock),"
+   ],
+   [
+    false,
+    "Mix Chicken Stock"
+   ],
+   [
+    false,
+    "Retail Chicken Stock"
+   ],
+   [
+    false,
+    ".,"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    " Cows' "
+   ],
+   [
+    true,
+    "Milk"
+   ],
+   [
+    false,
+    " , Semi Skimmed"
+   ],
+   [
+    true,
+    "Eggs,"
+   ],
+   [
+    false,
+    "Turmeric extract.,"
+   ],
+   [
+    false,
+    "Yeast, Paprika extract,"
+   ],
+   [
+    false,
+    "Thiamin), Water, Salt,"
+   ],
+   [
+    false,
+    "Carbonate, Iron, Niacin,"
+   ],
+   [
+    false,
+    " Flour (Calcium"
+   ],
+   [
+    true,
+    "WHEAT"
+   ],
+   [
+    false,
+    "Breadcrumbs 4 x 3kg"
+   ],
+   [
+    false,
+    "breast, Golden"
+   ],
+   [
+    false,
+    "Ingredients: Chicken"
+   ]
+  ],
+  "ingSize": 9.4,
+  "ingBoxWpt": 98.6,
+  "ingBoxHpt": 181.1,
+  "qty": 10
+ },
+ {
+  "name": "Crudites & Hummus",
+  "nameSize": 11.1,
+  "desc": "Carrot, Cucumber & Celery Batons",
+  "descSize": 6.4,
+  "price": "\u00a32.60",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "Cucumber, Celery, raw"
+   ],
+   [
+    false,
+    "Sorbate)., Carrots,"
+   ],
+   [
+    false,
+    "Preservative(Potassium"
+   ],
+   [
+    false,
+    "Regulator(Citric Acid),"
+   ],
+   [
+    false,
+    "Garlic Powder, Acidity"
+   ],
+   [
+    false,
+    "Paste (14%), Salt,"
+   ],
+   [
+    false,
+    " Seed"
+   ],
+   [
+    true,
+    "Sesame"
+   ],
+   [
+    false,
+    "Water, "
+   ],
+   [
+    false,
+    "Water), Rapeseed Oil,"
+   ],
+   [
+    false,
+    "(46%)(Chickpeas,"
+   ],
+   [
+    false,
+    "Cooked Chickpeas"
+   ],
+   [
+    false,
+    "Ingredients: Hummus"
+   ]
+  ],
+  "ingSize": 9.5,
+  "ingBoxWpt": 99.2,
+  "ingBoxHpt": 126.5,
+  "qty": 13
+ },
+ {
+  "name": "Egg Protein Pot",
+  "nameSize": 14.4,
+  "desc": "",
+  "descSize": 0,
+  "price": "\u00a32.20",
+  "date": "11/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    true,
+    "Eggs"
+   ]
+  ],
+  "ingSize": 18.0,
+  "ingBoxWpt": 43.8,
+  "ingBoxHpt": 24.8,
+  "qty": 9
+ },
+ {
+  "name": "Fruit Salad",
+  "nameSize": 18.0,
+  "desc": "Fresh Seasonal Fruit",
+  "descSize": 10.8,
+  "price": "\u00a32.60",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "average"
+   ],
+   [
+    false,
+    "flesh only,"
+   ],
+   [
+    false,
+    "pips, Melon,"
+   ],
+   [
+    false,
+    "weighed with"
+   ],
+   [
+    false,
+    "average,"
+   ],
+   [
+    false,
+    "Grapes,"
+   ],
+   [
+    false,
+    "raw, flesh only,"
+   ],
+   [
+    false,
+    "raw, Pineapple,"
+   ],
+   [
+    false,
+    "Strawberries,"
+   ],
+   [
+    false,
+    "Ingredients:"
+   ]
+  ],
+  "ingSize": 14.6,
+  "ingBoxWpt": 99.3,
+  "ingBoxHpt": 178.0,
+  "qty": 34
+ },
+ {
+  "name": "Greek Yoghurt, Granola and Honey",
+  "nameSize": 8.9,
+  "desc": "Half fat Greek Yoghurt with a dash of honey and Granola to top",
+  "descSize": 5.8,
+  "price": "\u00a32.50",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "Oil, Honey"
+   ],
+   [
+    false,
+    "Flavouring, Sunflower"
+   ],
+   [
+    false,
+    "Sunflower Seeds,"
+   ],
+   [
+    false,
+    ", Coconut,"
+   ],
+   [
+    true,
+    "Almonds"
+   ],
+   [
+    false,
+    "Oil, Raisins, Honey,"
+   ],
+   [
+    false,
+    " Sugar, Palm"
+   ],
+   [
+    true,
+    "Oats,"
+   ],
+   [
+    false,
+    "bulgaricus), Granola"
+   ],
+   [
+    false,
+    "Lactobacillus"
+   ],
+   [
+    false,
+    "thermophilus &"
+   ],
+   [
+    false,
+    "(Streptococcus"
+   ],
+   [
+    false,
+    "live yoghurt cultures"
+   ],
+   [
+    false,
+    " cream,"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    ", "
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "Pasteurized cow"
+   ],
+   [
+    false,
+    "Yogurt 1kg"
+   ],
+   [
+    false,
+    "Ingredients: Greek"
+   ]
+  ],
+  "ingSize": 10.1,
+  "ingBoxWpt": 96.7,
+  "ingBoxHpt": 182.7,
+  "qty": 15
+ },
+ {
+  "name": "Greek Yoghurt, Lemon and Granola",
+  "nameSize": 8.9,
+  "desc": "Half fat Greek Yoghurt, Lemon curd and Granola topping",
+  "descSize": 5.8,
+  "price": "\u00a32.50",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    true,
+    "EGGS"
+   ],
+   [
+    false,
+    "), free range"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "("
+   ],
+   [
+    false,
+    "(18%), sugar, Butter"
+   ],
+   [
+    false,
+    "Oil, lemon curd lemon"
+   ],
+   [
+    false,
+    "Flavouring, Sunflower"
+   ],
+   [
+    false,
+    "Sunflower Seeds,"
+   ],
+   [
+    false,
+    ", Coconut,"
+   ],
+   [
+    true,
+    "Almonds"
+   ],
+   [
+    false,
+    "Raisins, Honey,"
+   ],
+   [
+    false,
+    " Sugar, Palm Oil,"
+   ],
+   [
+    true,
+    "Oats,"
+   ],
+   [
+    false,
+    "bulgaricus), Granola"
+   ],
+   [
+    false,
+    "Lactobacillus"
+   ],
+   [
+    false,
+    "thermophilus &"
+   ],
+   [
+    false,
+    "(Streptococcus"
+   ],
+   [
+    false,
+    "live yoghurt cultures"
+   ],
+   [
+    false,
+    " cream,"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    ", "
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "cow "
+   ],
+   [
+    false,
+    "Yogurt 1kg Pasteurized"
+   ],
+   [
+    false,
+    "Ingredients: Greek"
+   ]
+  ],
+  "ingSize": 8.9,
+  "ingBoxWpt": 95.9,
+  "ingBoxHpt": 182.5,
+  "qty": 11
+ },
+ {
+  "name": "Greek Yoghurt, Strawberry and Granola",
+  "nameSize": 8.9,
+  "desc": "Half fat Greek Yoghurt, Strawberry Compote and Granola topping",
+  "descSize": 5.8,
+  "price": "\u00a32.50",
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "Flavouring, Sunflower Oil"
+   ],
+   [
+    false,
+    "Sunflower Seeds,"
+   ],
+   [
+    false,
+    ", Coconut,"
+   ],
+   [
+    true,
+    "Almonds"
+   ],
+   [
+    false,
+    "Oil, Raisins, Honey,"
+   ],
+   [
+    false,
+    " Sugar, Palm"
+   ],
+   [
+    true,
+    "Oats,"
+   ],
+   [
+    false,
+    "Granola "
+   ],
+   [
+    false,
+    "Lactobacillus bulgaricus),"
+   ],
+   [
+    false,
+    "thermophilus &"
+   ],
+   [
+    false,
+    "cultures (Streptococcus"
+   ],
+   [
+    false,
+    " cream, live yoghurt"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    ","
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "Pasteurized cow "
+   ],
+   [
+    false,
+    "sorbate)., Greek Yogurt 1kg"
+   ],
+   [
+    false,
+    "preservative (potassium"
+   ],
+   [
+    false,
+    "acid), natural flavouring,"
+   ],
+   [
+    false,
+    "juice, acidity regulator (citric"
+   ],
+   [
+    false,
+    "concentrated elderberry"
+   ],
+   [
+    false,
+    "modified maize starch,"
+   ],
+   [
+    false,
+    "Strawberry, water, sugar,"
+   ],
+   [
+    false,
+    "Filling BLST336 (4x2.5kg)"
+   ],
+   [
+    false,
+    "Ingredients: Strawberry Pie"
+   ]
+  ],
+  "ingSize": 7.9,
+  "ingBoxWpt": 97.6,
+  "ingBoxHpt": 181.8,
+  "qty": 18
+ },
+ {
+  "name": "Topping Pot - Cheese",
+  "nameSize": 10.4,
+  "desc": "",
+  "descSize": 0,
+  "price": null,
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "E160b(ii), potato starch"
+   ],
+   [
+    false,
+    "rennet, annatto norbixin"
+   ],
+   [
+    false,
+    ", salt, starter,"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "Pasteurised cows"
+   ],
+   [
+    false,
+    "Leicester Grated"
+   ],
+   [
+    false,
+    "Potato Starch, Red"
+   ],
+   [
+    false,
+    "Salt. Added ingredient -"
+   ],
+   [
+    false,
+    ", Starter, Rennet,"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "Pasteurised Full Fat"
+   ],
+   [
+    false,
+    "80/20 (6 x 2 kg)"
+   ],
+   [
+    false,
+    "Mozarella / Cheddar"
+   ],
+   [
+    false,
+    "starch., Grated"
+   ],
+   [
+    false,
+    "), Potato"
+   ],
+   [
+    true,
+    "MILK"
+   ],
+   [
+    false,
+    "cheese ("
+   ],
+   [
+    false,
+    "cheddar Cheddar"
+   ],
+   [
+    false,
+    "Ingredients: Mild grated"
+   ]
+  ],
+  "ingSize": 9.4,
+  "ingBoxWpt": 99.2,
+  "ingBoxHpt": 171.6,
+  "qty": 2
+ },
+ {
+  "name": "Topping Pot - Tuna",
+  "nameSize": 12.0,
+  "desc": "",
+  "descSize": 0,
+  "price": null,
+  "date": "10/07/2026",
+  "storage": "Keep Refrigerated 5\u00b0c",
+  "address": [
+   "AL7 1BJ",
+   "Herts",
+   "Welywyn Garden City",
+   "Brownfields",
+   "Unit 5 Sutherland Court",
+   "Eatpure Ltd"
+  ],
+  "ingredients": [
+   [
+    false,
+    "Black Pepper"
+   ],
+   [
+    false,
+    "benzoate), Salt,"
+   ],
+   [
+    false,
+    "(Potassium, Sodium"
+   ],
+   [
+    false,
+    "gum), preservatives"
+   ],
+   [
+    false,
+    "(xantham gum, guar"
+   ],
+   [
+    false,
+    ", stabilisers"
+   ],
+   [
+    true,
+    "mustard"
+   ],
+   [
+    false,
+    "),"
+   ],
+   [
+    true,
+    "Milk"
+   ],
+   [
+    false,
+    "Protein ("
+   ],
+   [
+    false,
+    "(Acetic Acid), Dairy"
+   ],
+   [
+    false,
+    "salt, acidity regulator"
+   ],
+   [
+    false,
+    " yolk,"
+   ],
+   [
+    true,
+    "egg"
+   ],
+   [
+    false,
+    "pasteurised "
+   ],
+   [
+    false,
+    "modified starch,"
+   ],
+   [
+    false,
+    "rapeseed oil, water,"
+   ],
+   [
+    false,
+    ", Mayonnaise"
+   ],
+   [
+    true,
+    "(Fish)"
+   ],
+   [
+    false,
+    "Ingredients: Tuna"
+   ]
+  ],
+  "ingSize": 10.3,
+  "ingBoxWpt": 98.6,
+  "ingBoxHpt": 175.5,
+  "qty": 3
+ }
+]

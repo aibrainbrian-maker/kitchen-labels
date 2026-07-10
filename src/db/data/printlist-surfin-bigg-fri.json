@@ -1,0 +1,359 @@
+[
+ {
+  "name": "All Day Breakfast Panini",
+  "desc": "Slices of Cumberland sausage, smoked streaky bacon topped with egg mayo and toasted",
+  "price": "\u00a35.95",
+  "packG": 265,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 12.0,
+   "sat": 3.4,
+   "carb": 26.0,
+   "sug": 2.6,
+   "fib": 1.5,
+   "prot": 12.0,
+   "salt": 1.2
+  },
+  "qty": 8
+ },
+ {
+  "name": "Brie, Bacon and Cranberry Panini",
+  "desc": "Creamy Brie, with Bacon and Cranberry sauce - Enjoy me Toasted!",
+  "price": "\u00a35.95",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 10.0,
+   "sat": 1.1,
+   "carb": 34.0,
+   "sug": 3.6,
+   "fib": 1.8,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 8
+ },
+ {
+  "name": "Cheese Savoury on Malted Bread",
+  "desc": "Cheese, mayo and red onion mix",
+  "price": null,
+  "packG": 154,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 18.0,
+   "sat": 7.8,
+   "carb": 22.0,
+   "sug": 1.9,
+   "fib": 3.7,
+   "prot": 13.0,
+   "salt": 1.3
+  },
+  "qty": 3
+ },
+ {
+  "name": "Chicken & Chorizo with Leaf on Malted Bloomer",
+  "desc": "100% Chicken Breast, Chorizo, Leaf and Mayonnaise in a Malted Bloomer",
+  "price": null,
+  "packG": 201,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 2.3,
+   "carb": 22.0,
+   "sug": 1.4,
+   "fib": 1.8,
+   "prot": 16.0,
+   "salt": 0.84
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken & Sweetcorn",
+  "desc": "100% Chicken Breast with mayonnaise and sweetcorn",
+  "price": null,
+  "packG": 175,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 7.7,
+   "sat": 0.6,
+   "carb": 24.0,
+   "sug": 2.1,
+   "fib": 1.7,
+   "prot": 14.0,
+   "salt": 1.2
+  },
+  "qty": 3
+ },
+ {
+  "name": "Chicken and Bacon Mayo on Malted Bloomer",
+  "desc": "Chicken breast and bacon with mayo",
+  "price": null,
+  "packG": 200,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 9.4,
+   "sat": 2.1,
+   "carb": 24.0,
+   "sug": 0.9,
+   "fib": 2.2,
+   "prot": 17.0,
+   "salt": 1.9
+  },
+  "qty": 2
+ },
+ {
+  "name": "Chicken Satay Wrap",
+  "desc": "Sliced Chicken in a Satay Sauce with Crunchy Spinach * *CONTAINS PEANUTS* *",
+  "price": null,
+  "packG": 195,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 5.2,
+   "sat": 1.8,
+   "carb": 28.0,
+   "sug": 2.9,
+   "fib": 1.8,
+   "prot": 13.0,
+   "salt": 0.92
+  },
+  "qty": 3
+ },
+ {
+  "name": "Chunky Egg mayo with Cress on Malted Bread",
+  "desc": "Chunky Egg Mayo with Cress on Malted Bread",
+  "price": null,
+  "packG": 122,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 14.0,
+   "sat": 2.3,
+   "carb": 16.0,
+   "sug": 1.3,
+   "fib": 2.7,
+   "prot": 11.0,
+   "salt": 0.8
+  },
+  "qty": 4
+ },
+ {
+  "name": "Coronation Chicken With Leaf on White Bloomer",
+  "desc": "",
+  "price": null,
+  "packG": 2,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 4.7,
+   "sat": 0.4,
+   "carb": 37.0,
+   "sug": 3.6,
+   "fib": 2.3,
+   "prot": 9.5,
+   "salt": 0.95
+  },
+  "qty": 2
+ },
+ {
+  "name": "Falafel and Hummus Protein Salad Bowl",
+  "desc": "Moroccan Falafel with Creamy Hummus, on a bed of crunchy Spinach, with Cherry Tomatoes, Olives, Cucumber and Red Onion, served with a side of Tzatziki",
+  "price": null,
+  "packG": 304,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 7.6,
+   "sat": 1.2,
+   "carb": 13.0,
+   "sug": 6.6,
+   "fib": 3.2,
+   "prot": 3.9,
+   "salt": 1.1
+  },
+  "qty": 2
+ },
+ {
+  "name": "Feta and Roast Red Pepper Pasta Salad Bowl",
+  "desc": "Creamy Feta with Roast Red Peppers on a bed a Leaf topped with Spicy Arrabbiata Pasta",
+  "price": null,
+  "packG": 245,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 7.2,
+   "sat": 4.6,
+   "carb": 25.0,
+   "sug": 2.0,
+   "fib": 1.5,
+   "prot": 8.9,
+   "salt": 1.1
+  },
+  "qty": 2
+ },
+ {
+  "name": "GLUTEN FREE - Egg Mayo & Cress",
+  "desc": "Egg Mayo & Cress on Gluten Free Bread",
+  "price": null,
+  "packG": 168,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 12.0,
+   "sat": 2.1,
+   "carb": 22.0,
+   "sug": 0.8,
+   "fib": 4.6,
+   "prot": 7.1,
+   "salt": 1.0
+  },
+  "qty": 1
+ },
+ {
+  "name": "Hunters Chicken Ciabatta",
+  "desc": "Sliced Chicken and Bacon covered in Cheddar with a BBQ sauce",
+  "price": "\u00a35.85",
+  "packG": 260,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 4.8,
+   "carb": 23.0,
+   "sug": 4.1,
+   "fib": 1.6,
+   "prot": 17.0,
+   "salt": 1.0
+  },
+  "qty": 6
+ },
+ {
+  "name": "Luxury Smoked Salmon and Cream Cheese Bagel",
+  "desc": "Smoked Atlantic Salmon with a thick layer of Cream Cheese",
+  "price": null,
+  "packG": 180,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 5.6,
+   "sat": 1.4,
+   "carb": 42.0,
+   "sug": 3.7,
+   "fib": 2.2,
+   "prot": 12.0,
+   "salt": 1.3
+  },
+  "qty": 4
+ },
+ {
+  "name": "New York Deli Bagel",
+  "desc": "Sliced Pastrami, Emmental cheese and crunchy gherkins covered with Mustard Mayo in a soft bagel TRY ME TOASTED",
+  "price": null,
+  "packG": 180,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 7.0,
+   "sat": 2.8,
+   "carb": 38.0,
+   "sug": 3.4,
+   "fib": 2.0,
+   "prot": 13.0,
+   "salt": 1.4
+  },
+  "qty": 4
+ },
+ {
+  "name": "Pork Gyros Wrap",
+  "desc": "Pork Gyros with Creamy Tzatziki, Red Onion, Sliced Cucumber and Leaf",
+  "price": null,
+  "packG": 200,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 13.0,
+   "sat": 5.4,
+   "carb": 28.0,
+   "sug": 2.3,
+   "fib": 1.4,
+   "prot": 9.1,
+   "salt": 0.91
+  },
+  "qty": 3
+ },
+ {
+  "name": "Red Pesto, Mozzarella, Sundried Tomato w/ basil Ciabatta",
+  "desc": "Creamy Mozzarella with Red Pesto, Sundried tomatoes and basil - Perfect Toasted",
+  "price": "\u00a35.85",
+  "packG": 235,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 9.4,
+   "sat": 4.7,
+   "carb": 27.0,
+   "sug": 4.0,
+   "fib": 2.2,
+   "prot": 12.0,
+   "salt": 0.61
+  },
+  "qty": 6
+ },
+ {
+  "name": "Southern Fried Chicken and Bacon Hot Wrap",
+  "desc": "Southern Fried Chicken Fillet, Bacon, Cheese & BBQ Sauce",
+  "price": "\u00a35.95",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 14.0,
+   "sat": 7.2,
+   "carb": 29.0,
+   "sug": 2.5,
+   "fib": 1.6,
+   "prot": 14.0,
+   "salt": 1.8
+  },
+  "qty": 4
+ },
+ {
+  "name": "Tuna Cheddar Toastie",
+  "desc": "Tuna Mayo with spring onions and red peppers, covered in Sliced Cheddar on Malted Bloomer - Perfect Toasted",
+  "price": "\u00a35.69",
+  "packG": 255,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 11.0,
+   "sat": 5.1,
+   "carb": 23.0,
+   "sug": 1.1,
+   "fib": 2.2,
+   "prot": 14.0,
+   "salt": 1.3
+  },
+  "qty": 5
+ },
+ {
+  "name": "Tuna Melt Ciabatta",
+  "desc": "Tuna Mayonnaise & Mature Cheddar - ready for toasting",
+  "price": "\u00a35.85",
+  "packG": 205,
+  "date": "11/07/2026",
+  "nutrition": {
+   "fat": 12.0,
+   "sat": 4.9,
+   "carb": 27.0,
+   "sug": 3.3,
+   "fib": 2.0,
+   "prot": 14.0,
+   "salt": 0.88
+  },
+  "qty": 8
+ },
+ {
+  "name": "Tuna Sweetcorn on Malted Bread",
+  "desc": "",
+  "price": null,
+  "packG": 142,
+  "date": "10/07/2026",
+  "nutrition": {
+   "fat": 8.1,
+   "sat": 1.0,
+   "carb": 25.0,
+   "sug": 2.2,
+   "fib": 4.2,
+   "prot": 12.0,
+   "salt": 0.98
+  },
+  "qty": 3
+ }
+]

@@ -1,0 +1,317 @@
+[
+ {
+  "name": "Bacon Toastie",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "All Day Breakfast Panini",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Cheese & Onion Toastie",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Tuna Melt Ciabatta",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Red Pesto, Mozzarella, Sundried Tomato w/ basil Ciabatta",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Ham and Cheese Ciabatta",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Ham, Brie and Honey Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Southern Fried Chicken and Bacon Hot Wrap",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Chicken, Chorizo & Cheese Panini",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Hoisin Duck Wrap",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Chicken & Chorizo with Leaf on Malted Bloomer",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Ham & Cheese Toastie",
+  "qty": 0,
+  "price": "\u00a34.49"
+ },
+ {
+  "name": "Southern Fried Chicken and Sweet Chilli Salad",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Bacon, Brie & Cranberry Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "* *VEGAN* * Beetroot falafel, Hummus, Spinach and Pomegranate Wrap",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Jerk Chicken and Cheese Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Peri Peri Chicken and Cheese Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Cheese & Tomato Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Tuna Crunch Salad",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Wiltshire Ham Salad Bowl",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Sliced Egg Salad Bowl",
+  "qty": 0,
+  "price": "\u00a34.99"
+ },
+ {
+  "name": "Ham, Cheese & Salad Wrap",
+  "qty": 0,
+  "price": "\u00a34.49"
+ },
+ {
+  "name": "GLUTEN FREE - Tuna & Cucumber Sandwich",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "GLUTEN FREE - Egg Mayo & Cress",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "GLUTEN FREE - Chicken Salad",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Sweet Chilli Chicken Wrap",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Southern Fried Chicken Wrap",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Egg Mayo, Cress & Tomato Bloomer",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Ham, Mustard & Tomato on Brown Bloomer",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Cheese, Pickle and Salad Bloomer",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Chicken Caesar Wrap",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Tuna Crunch Wrap",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "BBQ Chicken & Cheese Panini",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Prawn Mayo with leaf on Malted Bread",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Margherita Panini",
+  "qty": 0,
+  "price": "\u00a34.49"
+ },
+ {
+  "name": "Chicken Salad on Malted Bloomer",
+  "qty": 0,
+  "price": "\u00a32.95"
+ },
+ {
+  "name": "All Day Breakfast on White Bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "BLT Sandwich",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Falafel, Hummus & Sundried Tomato on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Roast Beef, Horseradish & Salad on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.75"
+ },
+ {
+  "name": "Ham and Egg on White Bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Chicken & Bacon on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Coronation chicken on White",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Ham Salad on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "BBQ Chicken & Leaf on White bread",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Chicken & Sweetcorn",
+  "qty": 0,
+  "price": "\u00a33.79"
+ },
+ {
+  "name": "Cheese Savoury on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.69"
+ },
+ {
+  "name": "Tuna Sweetcorn on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.69"
+ },
+ {
+  "name": "Chunky Egg mayo with Cress on Malted Bread",
+  "qty": 0,
+  "price": "\u00a33.69"
+ },
+ {
+  "name": "Coronation Chicken on White Roll",
+  "qty": 0,
+  "price": "\u00a32.99"
+ },
+ {
+  "name": "Chicken Mayo Roll",
+  "qty": 0,
+  "price": "\u00a32.99"
+ },
+ {
+  "name": "Ham & Cheese Roll",
+  "qty": 0,
+  "price": "\u00a32.99"
+ },
+ {
+  "name": "Tuna Mayo and Cucumber in White Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Egg Mayo and Cress on White Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Cheese & Tomato, White Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Egg Mayo & Cress in a soft Granary Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Tuna Mayo and Cucumber Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Cheese & Pickle Roll",
+  "qty": 0,
+  "price": "\u00a32.79"
+ },
+ {
+  "name": "Ham Roll",
+  "qty": 0,
+  "price": "\u00a32.49"
+ },
+ {
+  "name": "Cheese Roll",
+  "qty": 0,
+  "price": "\u00a32.49"
+ },
+ {
+  "name": "Cheese & Tomato Croissant",
+  "qty": 0,
+  "price": "\u00a33.69"
+ },
+ {
+  "name": "Sausage Toastie",
+  "qty": 0,
+  "price": "\u00a34.79"
+ },
+ {
+  "name": "Sausage & Bacon Panini",
+  "qty": 0,
+  "price": "\u00a34.99"
+ }
+]
