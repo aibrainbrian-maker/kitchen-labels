@@ -1,5 +1,7 @@
 import React from "react";
 import path from "node:path";
+import fs from "node:fs";
+import os from "node:os";
 import {
   Document,
   Page,
@@ -13,6 +15,7 @@ import {
   renderToBuffer,
 } from "@react-pdf/renderer";
 import type { LabelContent } from "./label-content";
+import { FONT_DATA_BASE64 } from "./font-data";
 import {
   potNameSizePt,
   potDescSizePt,
@@ -24,17 +27,19 @@ import {
 const MM_TO_PT = 2.83465;
 const mm = (v: number) => v * MM_TO_PT;
 
-// Fonts used by the supplier's labels (verified against the embedded fonts in
-// their PDFs): Special Elite for product names, Yrsa for descriptions.
-const fontsDir = path.join(process.cwd(), "public", "fonts");
-Font.register({
-  family: "Special Elite",
-  src: path.join(fontsDir, "SpecialElite-Regular.ttf"),
-});
-Font.register({
-  family: "Yrsa",
-  src: path.join(fontsDir, "Yrsa-Regular.ttf"),
-});
+// Fonts used by the supplier's labels: Special Elite for product names, Yrsa
+// for descriptions. They're embedded as base64 (font-data.ts) and written to a
+// temp file so the serverless PDF function always finds them — reading them
+// from public/ fails on Vercel, whose function filesystem has no static files.
+function registerEmbeddedFont(family: string, file: string) {
+  const dest = path.join(os.tmpdir(), file);
+  if (!fs.existsSync(dest)) {
+    fs.writeFileSync(dest, Buffer.from(FONT_DATA_BASE64[file], "base64"));
+  }
+  Font.register({ family, src: dest });
+}
+registerEmbeddedFont("Special Elite", "SpecialElite-Regular.ttf");
+registerEmbeddedFont("Yrsa", "Yrsa-Regular.ttf");
 // Product names never hyphenate on the supplier labels — wrap whole words.
 Font.registerHyphenationCallback((word) => [word]);
 
