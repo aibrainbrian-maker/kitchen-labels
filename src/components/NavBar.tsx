@@ -12,6 +12,7 @@ export default async function NavBar() {
     { href: "/ingredients", label: "Ingredients" },
     { href: "/labels/template", label: "Template" },
     { href: "/labels/sizes", label: "Label sizes" },
+    { href: "/users", label: "Users" },
   ];
 
   return (

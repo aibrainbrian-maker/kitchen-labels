@@ -8,6 +8,16 @@ import { eq } from "drizzle-orm";
 export const { handlers, signIn, signOut, auth } = NextAuth({
   session: { strategy: "jwt" },
   pages: { signIn: "/login" },
+  callbacks: {
+    // Expose the user's id on the session so pages/actions can identify the
+    // signed-in user (e.g. to stop them deleting their own login).
+    session({ session, token }) {
+      if (session.user && token.sub) {
+        (session.user as { id?: string }).id = token.sub;
+      }
+      return session;
+    },
+  },
   providers: [
     Credentials({
       credentials: {
