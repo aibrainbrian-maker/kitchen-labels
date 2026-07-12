@@ -70,6 +70,12 @@ export default async function LoginPage({
             Sign in
           </button>
         </form>
+
+        <p className="mt-6 border-t border-neutral-100 pt-4 text-xs text-neutral-500">
+          Forgotten your password? Ask a colleague to reset it for you on the{" "}
+          <span className="font-medium">Users</span> page, or contact whoever
+          set up the app.
+        </p>
       </div>
     </div>
   );

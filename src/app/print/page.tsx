@@ -2,6 +2,8 @@ import Link from "next/link";
 import { format } from "date-fns";
 import { db } from "@/db";
 import BrandSheetPicker from "@/components/BrandSheetPicker";
+import SubmitButton from "@/components/SubmitButton";
+import ProductQuantityList from "@/components/ProductQuantityList";
 import { executePrintRun, saveStandingOrder } from "./actions";
 
 // Creating a run writes many rows; give the action headroom on large lists.
@@ -171,12 +173,12 @@ export default async function PrintPage({
           </div>
 
           <div className="mb-6">
-            <button
-              type="submit"
-              className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700"
+            <SubmitButton
+              pendingLabel="Generating PDF…"
+              className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
               Create print run →
-            </button>
+            </SubmitButton>
           </div>
 
           {restrictToProductIds && (
@@ -185,48 +187,23 @@ export default async function PrintPage({
             </p>
           )}
 
-          <ul className="mb-6 divide-y divide-neutral-200 rounded-lg border border-neutral-200 bg-white">
-            {visibleProducts.map((p) => {
-              const hasRecipe = p.productIngredients.length > 0;
-              return (
-                <li key={p.id} className="flex items-center justify-between gap-4 px-4 py-2.5">
-                  <p className="min-w-0 truncate font-medium text-neutral-900">
-                    {p.isFavorite && <span title="Favourite">★ </span>}
-                    {p.name}
-                    {!hasRecipe && (
-                      <span className="ml-2 text-xs font-normal text-amber-700">
-                        ⚠ no recipe yet
-                      </span>
-                    )}
-                  </p>
-                  <div className="shrink-0">
-                    <label className="sr-only" htmlFor={`qty_${p.id}`}>
-                      Quantity for {p.name}
-                    </label>
-                    <input
-                      id={`qty_${p.id}`}
-                      type="number"
-                      name={`qty_${p.id}`}
-                      min="0"
-                      max="9999"
-                      defaultValue={prefill.get(p.id) || ""}
-                      placeholder="0"
-                      disabled={!hasRecipe}
-                      className="w-24 rounded-md border border-neutral-300 px-3 py-2 text-center text-lg focus:border-neutral-500 focus:outline-none disabled:bg-neutral-100"
-                    />
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
+          <ProductQuantityList
+            products={visibleProducts.map((p) => ({
+              id: p.id,
+              name: p.name,
+              isFavorite: p.isFavorite,
+              hasRecipe: p.productIngredients.length > 0,
+              qty: prefill.get(p.id) ?? 0,
+            }))}
+          />
 
           <div className="flex flex-wrap items-end gap-4">
-            <button
-              type="submit"
-              className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700"
+            <SubmitButton
+              pendingLabel="Generating PDF…"
+              className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
               Create print run →
-            </button>
+            </SubmitButton>
 
             <div className="flex items-end gap-2 rounded-lg border border-dashed border-neutral-300 p-3">
               <div>
@@ -240,13 +217,13 @@ export default async function PrintPage({
                   className="w-64 rounded-md border border-neutral-300 px-3 py-2 text-sm focus:border-neutral-500 focus:outline-none"
                 />
               </div>
-              <button
-                type="submit"
+              <SubmitButton
                 formAction={saveStandingOrder}
-                className="rounded-md border border-neutral-400 px-4 py-2 text-sm font-medium text-neutral-700 hover:bg-neutral-100"
+                pendingLabel="Save order"
+                className="rounded-md border border-neutral-400 px-4 py-2 text-sm font-medium text-neutral-700 hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Save order
-              </button>
+              </SubmitButton>
             </div>
           </div>
         </form>
