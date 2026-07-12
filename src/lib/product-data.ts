@@ -1,9 +1,33 @@
 import { db } from "@/db";
+import { products } from "@/db/schema";
+import { inArray } from "drizzle-orm";
 import {
   deriveProduct,
   type RecipeIngredient,
   type IngredientNutrition,
 } from "./nutrition";
+
+const productWith = {
+  productIngredients: {
+    with: {
+      ingredient: {
+        with: { ingredientAllergens: { with: { allergen: true } } },
+      },
+    },
+  },
+  defaultLabelSize: true,
+  labelCategory: true,
+} as const;
+
+type LoadedProduct = Awaited<
+  ReturnType<typeof db.query.products.findFirst<{ with: typeof productWith }>>
+>;
+
+export type DerivedLoaded = {
+  product: NonNullable<LoadedProduct>;
+  derived: ReturnType<typeof deriveProduct>;
+  allergenNamesBySlug: Map<string, string>;
+};
 
 /**
  * Loads a product with its recipe joined to ingredients and allergens, and
@@ -14,21 +38,31 @@ import {
 export async function loadProductWithDerived(productId: number) {
   const product = await db.query.products.findFirst({
     where: (t, { eq }) => eq(t.id, productId),
-    with: {
-      productIngredients: {
-        with: {
-          ingredient: {
-            with: { ingredientAllergens: { with: { allergen: true } } },
-          },
-        },
-      },
-      defaultLabelSize: true,
-      labelCategory: true,
-    },
+    with: productWith,
   });
 
   if (!product) return null;
+  return deriveLoadedProduct(product);
+}
 
+/**
+ * Batch version of loadProductWithDerived: loads many products in a single
+ * query and derives each. Used by the print run so a large list is one DB
+ * round-trip instead of one per product (a big speed win on a remote DB).
+ */
+export async function loadProductsWithDerived(
+  ids: number[]
+): Promise<Map<number, DerivedLoaded>> {
+  if (ids.length === 0) return new Map();
+  const rows = await db.query.products.findMany({
+    where: inArray(products.id, Array.from(new Set(ids))),
+    with: productWith,
+  });
+  return new Map(rows.map((p) => [p.id, deriveLoadedProduct(p)]));
+}
+
+/** Derives the Natasha's Law view for one already-loaded product row. */
+function deriveLoadedProduct(product: NonNullable<LoadedProduct>): DerivedLoaded {
   const recipe: RecipeIngredient[] = product.productIngredients.map((pi) => ({
     ingredientId: pi.ingredientId,
     name: pi.ingredient.name,

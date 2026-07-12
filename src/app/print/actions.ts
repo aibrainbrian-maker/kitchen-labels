@@ -12,7 +12,7 @@ import {
   standingOrders,
   standingOrderItems,
 } from "@/db/schema";
-import { loadProductWithDerived } from "@/lib/product-data";
+import { loadProductsWithDerived } from "@/lib/product-data";
 import { buildLabelContent } from "@/lib/labels/label-content";
 import { getBrandContext } from "@/lib/brand";
 
@@ -73,13 +73,16 @@ export async function executePrintRun(formData: FormData) {
     }
   }
 
+  // Load every product in one query (not one per line — big win on a remote DB)
+  const loadedById = await loadProductsWithDerived(lines.map((l) => l.productId));
+
   // Snapshot every line's label content BEFORE writing anything
   const snapshots: Array<{
     line: { productId: number; quantity: number };
     content: ReturnType<typeof buildLabelContent>;
   }> = [];
   for (const line of lines) {
-    const loaded = await loadProductWithDerived(line.productId);
+    const loaded = loadedById.get(line.productId);
     if (!loaded) continue;
     if (loaded.derived.ingredients.length === 0) {
       redirect(
@@ -130,8 +133,9 @@ export async function executePrintRun(formData: FormData) {
       })
       .returning({ id: printRuns.id });
 
-    for (const { line, content } of snapshots) {
-      await tx.insert(printRunItems).values({
+    // One bulk insert for all label snapshots (not one round-trip per label).
+    await tx.insert(printRunItems).values(
+      snapshots.map(({ line, content }) => ({
         printRunId: run.id,
         productId: line.productId,
         quantity: line.quantity,
@@ -154,13 +158,22 @@ export async function executePrintRun(formData: FormData) {
           showStars: content.showStars,
           innerBorder: content.innerBorder,
         },
-      });
+      }))
+    );
 
-      await tx
-        .update(products)
-        .set({ printCount: sql`${products.printCount} + ${line.quantity}` })
-        .where(eq(products.id, line.productId));
-    }
+    // Bump every product's print_count in a single statement.
+    const counts = sql.join(
+      snapshots.map(
+        ({ line }) => sql`(${line.productId}::int, ${line.quantity}::int)`
+      ),
+      sql`, `
+    );
+    await tx.execute(sql`
+      UPDATE ${products} AS p
+      SET print_count = p.print_count + v.q
+      FROM (VALUES ${counts}) AS v(id, q)
+      WHERE p.id = v.id
+    `);
 
     return run.id;
   });

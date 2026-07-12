@@ -9,6 +9,10 @@ import type { LabelContent, LabelIngredientToken } from "@/lib/labels/label-cont
 import { getBrandContext } from "@/lib/brand";
 import { tintPngDataUrl } from "@/lib/labels/tint-logo";
 
+// Rendering a large multi-page sheet is CPU work — give it headroom so big
+// runs (100+ labels) never hit the default serverless timeout.
+export const maxDuration = 60;
+
 // Labels are rendered from the run's snapshots, never from live product data,
 // so a reprint is always byte-identical to the original run.
 export async function GET(

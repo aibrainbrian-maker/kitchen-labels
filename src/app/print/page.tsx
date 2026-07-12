@@ -4,6 +4,9 @@ import { db } from "@/db";
 import BrandSheetPicker from "@/components/BrandSheetPicker";
 import { executePrintRun, saveStandingOrder } from "./actions";
 
+// Creating a run writes many rows; give the action headroom on large lists.
+export const maxDuration = 60;
+
 export default async function PrintPage({
   searchParams,
 }: {
