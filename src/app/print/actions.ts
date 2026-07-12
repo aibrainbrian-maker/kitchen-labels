@@ -38,7 +38,9 @@ function collectQuantities(formData: FormData) {
   return lines;
 }
 
-export async function executePrintRun(formData: FormData) {
+export type PrintRunResult = { runId?: number; error?: string };
+
+export async function executePrintRun(formData: FormData): Promise<PrintRunResult> {
   const parsed = runSchema.parse({
     labelSizeId: formData.get("labelSizeId"),
     brandTemplateId: formData.get("brandTemplateId") || undefined,
@@ -51,7 +53,7 @@ export async function executePrintRun(formData: FormData) {
   const lines = collectQuantities(formData);
 
   if (lines.length === 0) {
-    redirect(`/print?error=${encodeURIComponent("Set a quantity for at least one product.")}`);
+    return { error: "Set a quantity for at least one product." };
   }
 
   // Prep date interpreted as midday local to avoid timezone edge cases
@@ -85,11 +87,9 @@ export async function executePrintRun(formData: FormData) {
     const loaded = loadedById.get(line.productId);
     if (!loaded) continue;
     if (loaded.derived.ingredients.length === 0) {
-      redirect(
-        `/print?error=${encodeURIComponent(
-          `"${loaded.product.name}" has no recipe yet — add ingredients before printing its label.`
-        )}`
-      );
+      return {
+        error: `"${loaded.product.name}" has no recipe yet — add ingredients before printing its label.`,
+      };
     }
     const content = buildLabelContent({
       productName: loaded.product.name,
@@ -119,7 +119,7 @@ export async function executePrintRun(formData: FormData) {
   }
 
   if (snapshots.length === 0) {
-    redirect(`/print?error=${encodeURIComponent("No valid products selected.")}`);
+    return { error: "No valid products selected." };
   }
 
   const runId = await db.transaction(async (tx) => {
@@ -180,9 +180,9 @@ export async function executePrintRun(formData: FormData) {
 
   revalidatePath("/print/history");
   revalidatePath("/");
-  // Go straight to the generated PDF, ready to print. The run is still saved
-  // to history and reachable from the dashboard's "Recent print runs".
-  redirect(`/api/print/${runId}/pdf`);
+  // Return the run id; the client opens /api/print/<id>/pdf in a new tab so the
+  // app stays put. The run is saved to history either way.
+  return { runId };
 }
 
 /**

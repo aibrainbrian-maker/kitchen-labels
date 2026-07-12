@@ -2,7 +2,9 @@ import Link from "next/link";
 import { format } from "date-fns";
 import { db } from "@/db";
 import BrandSheetPicker from "@/components/BrandSheetPicker";
-import SubmitButton from "@/components/SubmitButton";
+import PrintForm from "@/components/PrintForm";
+import CreatePrintRunButton from "@/components/CreatePrintRunButton";
+import SaveOrderButton from "@/components/SaveOrderButton";
 import ProductQuantityList from "@/components/ProductQuantityList";
 import { executePrintRun, saveStandingOrder } from "./actions";
 
@@ -115,7 +117,7 @@ export default async function PrintPage({
       ) : (
         /* key forces the form (and its prefilled inputs) to remount when a
            standing order or re-run is loaded via client-side navigation */
-        <form key={`${standing ?? ""}-${again ?? ""}`} action={executePrintRun}>
+        <PrintForm key={`${standing ?? ""}-${again ?? ""}`}>
           {/* Carries the loaded standing order's customer prices into the run */}
           {loadedName && standing && (
             <input type="hidden" name="standingOrderId" value={standing} />
@@ -173,12 +175,12 @@ export default async function PrintPage({
           </div>
 
           <div className="mb-6">
-            <SubmitButton
-              pendingLabel="Generating PDF…"
+            <CreatePrintRunButton
+              action={executePrintRun}
               className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
               Create print run →
-            </SubmitButton>
+            </CreatePrintRunButton>
           </div>
 
           {restrictToProductIds && (
@@ -198,12 +200,12 @@ export default async function PrintPage({
           />
 
           <div className="flex flex-wrap items-end gap-4">
-            <SubmitButton
-              pendingLabel="Generating PDF…"
+            <CreatePrintRunButton
+              action={executePrintRun}
               className="rounded-md bg-neutral-900 px-10 py-3.5 text-lg font-medium text-white hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
               Create print run →
-            </SubmitButton>
+            </CreatePrintRunButton>
 
             <div className="flex items-end gap-2 rounded-lg border border-dashed border-neutral-300 p-3">
               <div>
@@ -217,16 +219,15 @@ export default async function PrintPage({
                   className="w-64 rounded-md border border-neutral-300 px-3 py-2 text-sm focus:border-neutral-500 focus:outline-none"
                 />
               </div>
-              <SubmitButton
-                formAction={saveStandingOrder}
-                pendingLabel="Save order"
+              <SaveOrderButton
+                action={saveStandingOrder}
                 className="rounded-md border border-neutral-400 px-4 py-2 text-sm font-medium text-neutral-700 hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Save order
-              </SubmitButton>
+              </SaveOrderButton>
             </div>
           </div>
-        </form>
+        </PrintForm>
       )}
     </div>
   );
